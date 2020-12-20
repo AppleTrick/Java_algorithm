@@ -2,19 +2,15 @@ package back_3for;
 
 import java.util.Scanner;
 
-public class B10950 {
+public class B2741 {
 
-	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
 		int a = sc.nextInt();
 		
-		for (int i = 0; i < a; i++) {
-			int b = sc.nextInt();
-			int c = sc.nextInt();
-			System.out.println(b+c);
+		for (int i = 1; i <= a; i++) {
+			System.out.println(i);
 		}
 		
 		sc.close();
